@@ -129,3 +129,27 @@ p {
     height: 4px;
   }
 }
+#particles label{
+  color: white;
+}
+#particles label:hover,#particles label:focus{
+  box-shadow:0 1px 0 rgb(255, 255, 255);
+}
+#particles label span{
+  position:absolute;
+  margin-top: 4%;
+  margin-left: -4%;
+  color:rgb(255, 230, 0);
+  background:rgba(0,0,0,.9);
+  padding:15px;
+  border-radius:3px;
+  box-shadow:0 0 2px rgba(0,0,0,.5);
+  transform:scale(0) rotate(-12deg);
+  transition:all .25s;
+  opacity:0;
+  font-size: 140%;
+}
+#particles label:hover span, #particles label:focus span{
+  transform:scale(1) rotate(0);
+  opacity:1;      
+}
