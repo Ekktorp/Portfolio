@@ -1,1 +1,1 @@
-https://github.com/Ekktorp/Portfolio
+https://ekktorp.github.io/Portfolio/
