@@ -132,10 +132,6 @@ p {
 #particles label{
   color: white;
 }
-
-#particles a:hover{
-  text-decoration: none;
-}
 #particles label span{
   position:absolute;
   margin-top: 4%;
